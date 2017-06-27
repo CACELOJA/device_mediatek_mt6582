@@ -1,7 +1,7 @@
 # inherit from the proprietary version
--include vendor/mediatek/mt6582/BoardConfigVendor.mk
+-include vendor/zte/e10q/BoardConfigVendor.mk
 
-LOCAL_PATH := device/mediatek/mt6582
+LOCAL_PATH := device/zte/e10q
 
 # Board
 TARGET_BOARD_PLATFORM := mt6582
