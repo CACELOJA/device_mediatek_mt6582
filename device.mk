@@ -22,9 +22,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit vendor blobs
-$(call inherit-product-if-exists, vendor/mediatek/mt6582/mt6582-vendor.mk)
+$(call inherit-product-if-exists, vendor/zte/e10q/e10q-vendor.mk)
 
-LOCAL_PATH := device/mediatek/mt6582
+LOCAL_PATH := device/zte/e10q
 
 PRODUCT_CHARACTERISTICS := default
 
