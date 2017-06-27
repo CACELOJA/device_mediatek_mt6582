@@ -42,7 +42,7 @@ COMMON_GLOBAL_CPPFLAGS += -DMTK_HARDWARE
 BLOCK_BASED_OTA := false
 
 # RIL
-BOARD_RIL_CLASS := ../../../device/mediatek/mt6582/ril/
+BOARD_RIL_CLASS := ../../../device/zte/e10q/ril/
 
 BOARD_CONNECTIVITY_VENDOR := MediaTek
 BOARD_CONNECTIVITY_MODULE := conn_soc
@@ -80,8 +80,8 @@ TARGET_USE_CUSTOM_LUN_FILE_PATH := "/sys/devices/virtual/android_usb/android0/f_
 TW_USE_MODEL_HARDWARE_ID_FOR_DEVICE_ID := true
 BOARD_HAS_NO_SELECT_BUTTON := true
 TW_NO_REBOOT_BOOTLOADER := true
-TARGET_RECOVERY_FSTAB := device/mediatek/mt6582/recovery/root/etc/recovery.fstab
-TARGET_RECOVERY_DEVICE_DIRS += device/mediatek/mt6582
+TARGET_RECOVERY_FSTAB := device/zte/e10q/recovery/root/etc/recovery.fstab
+TARGET_RECOVERY_DEVICE_DIRS += device/zte/e10q
 TW_THEME := portrait_hdpi
 RECOVERY_GRAPHICS_USE_LINELENGTH := true
 TW_BRIGHTNESS_PATH := /sys/devices/platform/leds-mt65xx/leds/lcd-backlight/brightness
@@ -140,7 +140,7 @@ TARGET_CPU_MEMCPY_OPT_DISABLE := true
 USE_MINIKIN := true
 
 # Selinux
-BOARD_SEPOLICY_DIRS += device/mediatek/mt6582/sepolicy
+BOARD_SEPOLICY_DIRS += device/zte/e10q/sepolicy
 
 # Sepolicy hack for old kernel, mt6582 version is 26.
 POLICYVERS := 26
