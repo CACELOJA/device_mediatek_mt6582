@@ -8,7 +8,7 @@ GPU     | Mali-400MP
 Memory  | 1GB RAM
 Shipped Android Version | 4.2.2 - 4.4.2
 Storage | 8GB (varies)
-Display | 6.0" 1280 x 720 px (varies)
+Display | 10.0" 1280 x 800 px (varies)
 Camera  | 8MPx, LED Flash
 
 This branch is for building 6.0.x based ROMs.
